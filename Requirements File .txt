@@ -1,0 +1,30 @@
+Requirements File 
+TensorFlow (2.7.0):
+
+TensorFlow is a powerful machine learning library widely used for building deep learning models.
+In our project, it plays a central role in creating and training the Convolutional Neural Network (CNN) for pneumonia detection.
+To install, use the command: pip install tensorflow==2.7.0
+OpenCV (4.9.0):
+
+OpenCV is essential for image processing tasks, such as loading, resizing, and manipulating chest X-ray images in our pneumonia detection project.
+It's used to preprocess the images before feeding them into the neural network.
+Install it with: pip install opencv-python==4.9.0
+Matplotlib (3.4.3):
+
+Matplotlib is a versatile plotting library that aids in visualizing the accuracy and loss of the deep learning model.
+We use it to create informative plots displaying training and validation accuracy as well as loss over epochs.
+Install it via: pip install matplotlib==3.4.3
+To set up the project in PyCharm or VSCode:
+
+PyCharm:
+
+Open PyCharm and create a new project.
+Create a virtual environment (recommended) for your project.
+Create or copy your project files into the PyCharm project directory.
+Open the terminal in PyCharm and run pip install -r requirements.txt to install the project dependencies.
+VSCode:
+
+Open VSCode and create a new project or open an existing one.
+Create a virtual environment using a tool like venv or conda.
+Copy your project files into the VSCode project directory.
+Open the integrated terminal in VSCode and run pip install -r requirements.txt to install the project dependencies.
